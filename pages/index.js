@@ -2,7 +2,6 @@ import Head from "next/head";
 import styles from "../styles/Home.module.css";
 
 //Components
-import ButtonPrimary from "../components/ButtonPrimary";
 
 export default function Home() {
   return (
@@ -15,7 +14,6 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>Chan-an Events</h1>
-        <ButtonPrimary children="Crea tu evento" />
       </main>
     </div>
   );
